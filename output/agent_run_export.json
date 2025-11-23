@@ -1,0 +1,66 @@
+{
+  "input": "\nPatient: 62-year-old male with long COVID and breathing problems.\nComorbidities: diabetes.\nLocation: Brazil.\n",
+  "steps": [
+    [
+      "Parallel Intake/Retrieval",
+      1.471
+    ],
+    [
+      "Explainer",
+      6.936
+    ],
+    [
+      "Report",
+      0.001
+    ]
+  ],
+  "state": {
+    "input_text": "\nPatient: 62-year-old male with long COVID and breathing problems.\nComorbidities: diabetes.\nLocation: Brazil.\n",
+    "tool_result": {
+      "condition": "COVID",
+      "total_trials": 191,
+      "examples": [
+        {
+          "NCT Number": "NCT04376944",
+          "Title": "Barrier Measures to Limit Covid-19.Nosocomial Transmission: a Cross-sectional Evaluation",
+          "Phases": null,
+          "Status": "Recruiting"
+        },
+        {
+          "NCT Number": "NCT04476680",
+          "Title": "Influence of Military Preventive Policy for reCruit Training on COVID-19 Seroconversion",
+          "Phases": "Not Applicable",
+          "Status": "Recruiting"
+        },
+        {
+          "NCT Number": "NCT04452682",
+          "Title": "The Impact of COVID-19 Pandemic on Critical Limb Threatening Ischemia and Emergency Vascular Practice",
+          "Phases": null,
+          "Status": "Completed"
+        }
+      ]
+    },
+    "status_plot_path": "trial_status.png",
+    "patient_profile": {
+      "patient_profile": {
+        "age": 62,
+        "gender": "male",
+        "main_condition": "long COVID and breathing problems",
+        "comorbidities": [
+          "diabetes"
+        ],
+        "location": "Brazil"
+      }
+    },
+    "explanation": "It looks like you're interested in research about **COVID-19**.\n\nThere are a lot of studies happening \u2013 a total of **191 clinical trials** focused on COVID-19.\n\nHere are a few examples of the kinds of studies researchers are doing:\n\n1.  One study is looking at **how to prevent COVID-19 from spreading in hospitals** (like through masks and good hygiene practices). They are still gathering information for this one.\n2.  Another trial is examining **how the rules and prevention strategies used in military training affect whether new recruits get COVID-19** or develop antibodies. This study is also still underway.\n3.  A completed study explored **how the COVID-19 pandemic affected emergency care for very serious blood flow problems in the legs or feet**.\n\nThese are just a few examples, but they show the wide range of research being done on COVID-19, from preventing its spread to understanding its broader impact on other medical conditions and healthcare.",
+    "final_report": "# \ud83e\udded Clinical Trials Navigator \u2014 Final Report\n\n---\n\n## \ud83d\udc64 Patient Profile (Structured)\n```json\n{\n  \"age\": 62,\n  \"sex\": \"male\",\n  \"condition\": \"long COVID\",\n  \"symptoms\": [\n    \"breathing problems\"\n  ],\n  \"comorbidities\": [\n    \"diabetes\"\n  ],\n  \"location\": \"Brazil\"\n}\n```\n\n---\n\n## \ud83d\udd0d Trials Found (Using Custom Tool)\n```json\n{\n  \"condition\": \"COVID\",\n  \"total_trials\": 191,\n  \"examples\": [\n    {\n      \"NCT Number\": \"NCT04376944\",\n      \"Title\": \"Barrier Measures to Limit Covid-19.Nosocomial Transmission: a Cross-sectional Evaluation\",\n      \"Phases\": null,\n      \"Status\": \"Recruiting\"\n    },\n    {\n      \"NCT Number\": \"NCT04476680\",\n      \"Title\": \"Influence of Military Preventive Policy for reCruit Training on COVID-19 Seroconversion\",\n      \"Phases\": \"Not Applicable\",\n      \"Status\": \"Recruiting\"\n    },\n    {\n      \"NCT Number\": \"NCT04452682\",\n      \"Title\": \"The Impact of COVID-19 Pandemic on Critical Limb Threatening Ischemia and Emergency Vascular Practice\",\n      \"Phases\": null,\n      \"Status\": \"Completed\"\n    }\n  ]\n}\n```\n\n---\n\n## \ud83d\udcdd Plain-Language Explanation\nIt looks like you're interested in research about **COVID-19**.\n\nThere are a lot of studies happening \u2013 a total of **191 clinical trials** focused on COVID-19.\n\nHere are a few examples of the kinds of studies researchers are doing:\n\n1.  One study is looking at **how to prevent COVID-19 from spreading in hospitals** (like through masks and good hygiene practices). They are still gathering information for this one.\n2.  Another trial is examining **how the rules and prevention strategies used in military training affect whether new recruits get COVID-19** or develop antibodies. This study is also still underway.\n3.  A completed study explored **how the COVID-19 pandemic affected emergency care for very serious blood flow problems in the legs or feet**.\n\nThese are just a few examples, but they show the wide range of research being done on COVID-19, from preventing its spread to understanding its broader impact on other medical conditions and healthcare.\n\n---\n\n## \ud83d\udcca Trial Status Chart\nThe trials status plot was generated and saved at:\n\n`trial_status.png`\n\n---\n\n## \u26a0\ufe0f Medical Disclaimer\nThis report is generated by an AI agent and is **not medical advice**.\nAlways consult a licensed healthcare professional.\n"
+  },
+  "validation": {
+    "patient_parsed": true,
+    "tool_used": true,
+    "has_examples": true,
+    "explanation_ok": true
+  },
+  "score": 1.0,
+  "runtime_sec": 8.409
+}

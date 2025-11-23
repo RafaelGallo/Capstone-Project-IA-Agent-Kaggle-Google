@@ -1,0 +1,171 @@
+patient_profile,tool_result,explanation,final_report
+"```json
+{
+  ""age"": 62,
+  ""sex"": ""male"",
+  ""condition"": ""long COVID"",
+  ""symptoms"": [
+    ""breathing problems""
+  ],
+  ""comorbidities"": [
+    ""diabetes""
+  ],
+  ""location"": ""Brazil""
+}
+```","{'condition': 'COVID', 'total_trials': 191, 'examples': [{'NCT Number': 'NCT04376944', 'Title': 'Barrier Measures to Limit Covid-19.Nosocomial Transmission: a Cross-sectional Evaluation', 'Phases': None, 'Status': 'Recruiting'}, {'NCT Number': 'NCT04476680', 'Title': 'Influence of Military Preventive Policy for reCruit Training on COVID-19 Seroconversion', 'Phases': 'Not Applicable', 'Status': 'Recruiting'}, {'NCT Number': 'NCT04452682', 'Title': 'The Impact of COVID-19 Pandemic on Critical Limb Threatening Ischemia and Emergency Vascular Practice', 'Phases': None, 'Status': 'Completed'}]}","Okay, let's break down this information about COVID-19 clinical trials in a way that's easy to understand.
+
+---
+
+### Understanding COVID-19 Clinical Trials
+
+This information tells us about some of the many research studies happening for COVID-19. Think of clinical trials as organized research studies where doctors and scientists are trying to learn more about a disease, test new treatments, or find better ways to prevent it.
+
+Here's what your data means:
+
+*   **Condition: COVID**
+    *   This simply means all these studies are focused on **COVID-19**.
+
+*   **Total Trials: 191**
+    *   This is a big number! It tells us there's a lot of research happening – **191 clinical trials in total** – all focused on understanding, preventing, or treating COVID-19.
+
+*   **Examples:**
+
+    Let's look at a few examples of these trials:
+
+    1.  **NCT Number: NCT04376944**
+        *   **Title: Barrier Measures to Limit Covid-19 Nosocomial Transmission: a Cross-sectional Evaluation**
+            *   **What it means:** This study is looking into how things like masks, gloves, and other protective gear (what they call 'barrier measures') can help prevent COVID-19 from spreading within hospitals.
+            *   **Phases: None**
+                *   This means it's likely an observational study, gathering information, rather than testing a new drug or vaccine.
+            *   **Status: Recruiting**
+                *   This means they are **actively looking for participants** or collecting more data for the study right now.
+
+    2.  **NCT Number: NCT04476680**
+        *   **Title: Influence of Military Preventive Policy for reCruit Training on COVID-19 Seroconversion**
+            *   **What it means:** This trial investigates whether the preventative policies put in place during military recruit training affect how many recruits get COVID-19. 'Seroconversion' means they're checking if recruits develop antibodies to the virus, indicating they've been exposed.
+            *   **Phases: Not Applicable**
+                *   Similar to 'None,' this indicates it's likely an observational study, not a drug or vaccine trial.
+            *   **Status: Recruiting**
+                *   This study is also **actively looking for participants** or collecting data.
+
+    3.  **NCT Number: NCT04452682**
+        *   **Title: The Impact of COVID-19 Pandemic on Critical Limb Threatening Ischemia and Emergency Vascular Practice**
+            *   **What it means:** This study examined how the COVID-19 pandemic affected a severe condition called 'Critical Limb Threatening Ischemia' (which is a serious problem with blood flow to the legs) and emergency surgeries for blood vessels.
+            *   **Phases: None**
+                *   Again, likely an observational study, not testing a new drug.
+            *   **Status: Completed**
+                *   This means they've **finished collecting all the data**, and are now analyzing the results.
+
+---
+
+**In Simple Terms:**
+
+There are currently **191 different research studies (clinical trials)** focused on COVID-19. These studies cover various aspects, from how to prevent the virus from spreading in hospitals, to how military policies affect infection rates, and even how the pandemic impacted other serious medical conditions.
+
+Some of these studies are **still looking for people to participate or collecting information** (these are marked as 'Recruiting'), while others have **finished gathering all their data** and are now figuring out what they learned (these are 'Completed'). Many of these studies are about understanding the disease and its effects, rather than testing new medications directly.
+
+All of this research is vital for understanding COVID-19 better, developing strategies to prevent its spread, and improving care for patients. If you're interested in learning more about a specific trial or potentially participating, you can use the 'NCT Number' to look it up on a public database like ClinicalTrials.gov.","# 🧭 Clinical Trials Navigator — Final Report
+
+## Patient Profile
+```json
+{
+  ""age"": 62,
+  ""sex"": ""male"",
+  ""condition"": ""long COVID"",
+  ""symptoms"": [
+    ""breathing problems""
+  ],
+  ""comorbidities"": [
+    ""diabetes""
+  ],
+  ""location"": ""Brazil""
+}
+```
+
+## Trials Found
+```json
+{
+  ""condition"": ""COVID"",
+  ""total_trials"": 191,
+  ""examples"": [
+    {
+      ""NCT Number"": ""NCT04376944"",
+      ""Title"": ""Barrier Measures to Limit Covid-19.Nosocomial Transmission: a Cross-sectional Evaluation"",
+      ""Phases"": null,
+      ""Status"": ""Recruiting""
+    },
+    {
+      ""NCT Number"": ""NCT04476680"",
+      ""Title"": ""Influence of Military Preventive Policy for reCruit Training on COVID-19 Seroconversion"",
+      ""Phases"": ""Not Applicable"",
+      ""Status"": ""Recruiting""
+    },
+    {
+      ""NCT Number"": ""NCT04452682"",
+      ""Title"": ""The Impact of COVID-19 Pandemic on Critical Limb Threatening Ischemia and Emergency Vascular Practice"",
+      ""Phases"": null,
+      ""Status"": ""Completed""
+    }
+  ]
+}
+```
+
+## Explanation
+Okay, let's break down this information about COVID-19 clinical trials in a way that's easy to understand.
+
+---
+
+### Understanding COVID-19 Clinical Trials
+
+This information tells us about some of the many research studies happening for COVID-19. Think of clinical trials as organized research studies where doctors and scientists are trying to learn more about a disease, test new treatments, or find better ways to prevent it.
+
+Here's what your data means:
+
+*   **Condition: COVID**
+    *   This simply means all these studies are focused on **COVID-19**.
+
+*   **Total Trials: 191**
+    *   This is a big number! It tells us there's a lot of research happening – **191 clinical trials in total** – all focused on understanding, preventing, or treating COVID-19.
+
+*   **Examples:**
+
+    Let's look at a few examples of these trials:
+
+    1.  **NCT Number: NCT04376944**
+        *   **Title: Barrier Measures to Limit Covid-19 Nosocomial Transmission: a Cross-sectional Evaluation**
+            *   **What it means:** This study is looking into how things like masks, gloves, and other protective gear (what they call 'barrier measures') can help prevent COVID-19 from spreading within hospitals.
+            *   **Phases: None**
+                *   This means it's likely an observational study, gathering information, rather than testing a new drug or vaccine.
+            *   **Status: Recruiting**
+                *   This means they are **actively looking for participants** or collecting more data for the study right now.
+
+    2.  **NCT Number: NCT04476680**
+        *   **Title: Influence of Military Preventive Policy for reCruit Training on COVID-19 Seroconversion**
+            *   **What it means:** This trial investigates whether the preventative policies put in place during military recruit training affect how many recruits get COVID-19. 'Seroconversion' means they're checking if recruits develop antibodies to the virus, indicating they've been exposed.
+            *   **Phases: Not Applicable**
+                *   Similar to 'None,' this indicates it's likely an observational study, not a drug or vaccine trial.
+            *   **Status: Recruiting**
+                *   This study is also **actively looking for participants** or collecting data.
+
+    3.  **NCT Number: NCT04452682**
+        *   **Title: The Impact of COVID-19 Pandemic on Critical Limb Threatening Ischemia and Emergency Vascular Practice**
+            *   **What it means:** This study examined how the COVID-19 pandemic affected a severe condition called 'Critical Limb Threatening Ischemia' (which is a serious problem with blood flow to the legs) and emergency surgeries for blood vessels.
+            *   **Phases: None**
+                *   Again, likely an observational study, not testing a new drug.
+            *   **Status: Completed**
+                *   This means they've **finished collecting all the data**, and are now analyzing the results.
+
+---
+
+**In Simple Terms:**
+
+There are currently **191 different research studies (clinical trials)** focused on COVID-19. These studies cover various aspects, from how to prevent the virus from spreading in hospitals, to how military policies affect infection rates, and even how the pandemic impacted other serious medical conditions.
+
+Some of these studies are **still looking for people to participate or collecting information** (these are marked as 'Recruiting'), while others have **finished gathering all their data** and are now figuring out what they learned (these are 'Completed'). Many of these studies are about understanding the disease and its effects, rather than testing new medications directly.
+
+All of this research is vital for understanding COVID-19 better, developing strategies to prevent its spread, and improving care for patients. If you're interested in learning more about a specific trial or potentially participating, you can use the 'NCT Number' to look it up on a public database like ClinicalTrials.gov.
+
+## Medical Disclaimer
+This report is generated by an AI agent and is not medical advice.
+Always consult a licensed healthcare professional.
+"

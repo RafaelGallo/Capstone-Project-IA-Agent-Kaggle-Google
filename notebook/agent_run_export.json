@@ -1,0 +1,69 @@
+{
+  "input": "\nPatient: 62-year-old male with long COVID and breathing problems.\nComorbidities: diabetes.\nLocation: Brazil.\n",
+  "steps": [
+    [
+      "Parallel Intake/Retrieval",
+      1.227
+    ],
+    [
+      "Explainer",
+      11.013
+    ],
+    [
+      "Report",
+      0.0
+    ]
+  ],
+  "state": {
+    "input_text": "\nPatient: 62-year-old male with long COVID and breathing problems.\nComorbidities: diabetes.\nLocation: Brazil.\n",
+    "tool_result": {
+      "condition": "COVID",
+      "total_trials": 191,
+      "examples": [
+        {
+          "NCT Number": "NCT04376944",
+          "Title": "Barrier Measures to Limit Covid-19.Nosocomial Transmission: a Cross-sectional Evaluation",
+          "Phases": null,
+          "Status": "Recruiting"
+        },
+        {
+          "NCT Number": "NCT04476680",
+          "Title": "Influence of Military Preventive Policy for reCruit Training on COVID-19 Seroconversion",
+          "Phases": "Not Applicable",
+          "Status": "Recruiting"
+        },
+        {
+          "NCT Number": "NCT04452682",
+          "Title": "The Impact of COVID-19 Pandemic on Critical Limb Threatening Ischemia and Emergency Vascular Practice",
+          "Phases": null,
+          "Status": "Completed"
+        }
+      ]
+    },
+    "status_plot_path": "trial_status.png",
+    "patient_profile": {
+      "patient_profile": {
+        "age": 62,
+        "gender": "male",
+        "conditions": [
+          "long COVID",
+          "breathing problems"
+        ],
+        "comorbidities": [
+          "diabetes"
+        ],
+        "location": "Brazil"
+      }
+    },
+    "explanation": "Okay, let's break down this clinical trial information in a way that's easy to understand.\n\n---\n\n### Understanding COVID-19 Clinical Trials\n\nIt looks like you're interested in clinical trials related to **COVID-19.** This information gives us a snapshot of some of the research happening right now.\n\n**Here's what we know:**\n\n1.  **A Lot of Research is Happening:** There are **191 different studies** currently listed that are looking into various aspects of COVID-19. This means scientists and doctors are working hard to understand the virus, how it spreads, and its effects on people.\n\n2.  **What Kind of Studies? Not Just New Drugs!** When we talk about \"clinical trials,\" it's important to know that they're not all about testing new medications. Many studies are observational \u2013 meaning they're looking at how things work in the real world, how policies affect health, or how the disease impacts other conditions. This is why some studies don't have \"Phases\" listed (like Phase 1, 2, or 3, which are specific to drug development).\n\n**Let's look at a few examples of these studies:**\n\n*   **Study 1: Preventing Spread in Hospitals**\n    *   **Title (Simplified):** \"How well do protective measures (like masks and gowns) stop COVID-19 from spreading in hospitals?\"\n    *   **What it's about:** This study is observing and evaluating the effectiveness of common protective steps (called \"barrier measures\") used in hospitals to prevent patients and staff from catching COVID-19.\n    *   **Status:** It's currently **Recruiting**, which means they are still looking for people to participate or collecting information from hospitals.\n    *   **Type:** This is an observational study, not testing a new drug.\n\n*   **Study 2: COVID-19 in Military Training**\n    *   **Title (Simplified):** \"Do military training policies affect whether recruits get COVID-19 antibodies?\"\n    *   **What it's about:** This study is investigating how specific rules and preventive actions put in place during military recruit training might influence whether the recruits develop antibodies to COVID-19 (meaning they've been exposed to the virus).\n    *   **Status:** This one is also **Recruiting**, meaning they're still gathering data from participants.\n    *   **Type:** This is also an observational study, looking at the impact of policies.\n\n*   **Study 3: COVID-19 and Severe Leg Artery Problems**\n    *   **Title (Simplified):** \"How did the COVID-19 pandemic affect people with severe leg artery problems and their emergency care?\"\n    *   **What it's about:** This study looked at the impact of the COVID-19 pandemic on patients who suffer from very serious blockages in their leg arteries (a condition called \"critical limb threatening ischemia\") and how emergency care for these conditions was affected during the pandemic.\n    *   **Status:** This study is **Completed**, meaning they have finished collecting all their data and are likely analyzing the results or have already published them.\n    *   **Type:** This was an observational study, looking back at health data.\n\n---\n\n**In a nutshell:** There's a wide range of important research happening on COVID-19, not just for new treatments, but also to understand how it spreads, how policies affect it, and its impact on other serious health conditions.",
+    "final_report": "# \ud83e\udded Clinical Trials Navigator \u2014 Final Report\n\n## Patient Profile\n```json\n{\n  \"age\": 62,\n  \"sex\": \"male\",\n  \"condition\": \"long COVID\",\n  \"symptoms\": [\n    \"breathing problems\"\n  ],\n  \"comorbidities\": [\n    \"diabetes\"\n  ],\n  \"location\": \"Brazil\"\n}\n```\n\n## Trials Found\n```json\n{\n  \"condition\": \"COVID\",\n  \"total_trials\": 191,\n  \"examples\": [\n    {\n      \"NCT Number\": \"NCT04376944\",\n      \"Title\": \"Barrier Measures to Limit Covid-19.Nosocomial Transmission: a Cross-sectional Evaluation\",\n      \"Phases\": null,\n      \"Status\": \"Recruiting\"\n    },\n    {\n      \"NCT Number\": \"NCT04476680\",\n      \"Title\": \"Influence of Military Preventive Policy for reCruit Training on COVID-19 Seroconversion\",\n      \"Phases\": \"Not Applicable\",\n      \"Status\": \"Recruiting\"\n    },\n    {\n      \"NCT Number\": \"NCT04452682\",\n      \"Title\": \"The Impact of COVID-19 Pandemic on Critical Limb Threatening Ischemia and Emergency Vascular Practice\",\n      \"Phases\": null,\n      \"Status\": \"Completed\"\n    }\n  ]\n}\n```\n\n## Explanation\nOkay, let's break down this clinical trial information in a way that's easy to understand.\n\n---\n\n### Understanding COVID-19 Clinical Trials\n\nIt looks like you're interested in clinical trials related to **COVID-19.** This information gives us a snapshot of some of the research happening right now.\n\n**Here's what we know:**\n\n1.  **A Lot of Research is Happening:** There are **191 different studies** currently listed that are looking into various aspects of COVID-19. This means scientists and doctors are working hard to understand the virus, how it spreads, and its effects on people.\n\n2.  **What Kind of Studies? Not Just New Drugs!** When we talk about \"clinical trials,\" it's important to know that they're not all about testing new medications. Many studies are observational \u2013 meaning they're looking at how things work in the real world, how policies affect health, or how the disease impacts other conditions. This is why some studies don't have \"Phases\" listed (like Phase 1, 2, or 3, which are specific to drug development).\n\n**Let's look at a few examples of these studies:**\n\n*   **Study 1: Preventing Spread in Hospitals**\n    *   **Title (Simplified):** \"How well do protective measures (like masks and gowns) stop COVID-19 from spreading in hospitals?\"\n    *   **What it's about:** This study is observing and evaluating the effectiveness of common protective steps (called \"barrier measures\") used in hospitals to prevent patients and staff from catching COVID-19.\n    *   **Status:** It's currently **Recruiting**, which means they are still looking for people to participate or collecting information from hospitals.\n    *   **Type:** This is an observational study, not testing a new drug.\n\n*   **Study 2: COVID-19 in Military Training**\n    *   **Title (Simplified):** \"Do military training policies affect whether recruits get COVID-19 antibodies?\"\n    *   **What it's about:** This study is investigating how specific rules and preventive actions put in place during military recruit training might influence whether the recruits develop antibodies to COVID-19 (meaning they've been exposed to the virus).\n    *   **Status:** This one is also **Recruiting**, meaning they're still gathering data from participants.\n    *   **Type:** This is also an observational study, looking at the impact of policies.\n\n*   **Study 3: COVID-19 and Severe Leg Artery Problems**\n    *   **Title (Simplified):** \"How did the COVID-19 pandemic affect people with severe leg artery problems and their emergency care?\"\n    *   **What it's about:** This study looked at the impact of the COVID-19 pandemic on patients who suffer from very serious blockages in their leg arteries (a condition called \"critical limb threatening ischemia\") and how emergency care for these conditions was affected during the pandemic.\n    *   **Status:** This study is **Completed**, meaning they have finished collecting all their data and are likely analyzing the results or have already published them.\n    *   **Type:** This was an observational study, looking back at health data.\n\n---\n\n**In a nutshell:** There's a wide range of important research happening on COVID-19, not just for new treatments, but also to understand how it spreads, how policies affect it, and its impact on other serious health conditions.\n\n## Trial Status Chart\nPlot saved at: `trial_status.png`\n\n## Medical Disclaimer\nThis report is generated by an AI agent and is not medical advice.\nAlways consult a licensed healthcare professional.\n"
+  },
+  "validation": {
+    "patient_parsed": true,
+    "tool_used": true,
+    "has_examples": true,
+    "explanation_ok": true
+  },
+  "score": 1.0,
+  "runtime_sec": 12.243
+}
